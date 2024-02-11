@@ -1,0 +1,32 @@
+.card {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.card:hover {
+    top: -10px;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+}
+
+.background {
+    background: linear-gradient(136deg, rgb(68, 132, 206), rgb(26, 215, 192), rgb(255, 155, 17), rgb(155, 89, 182), rgb(255, 127, 127), rgb(236, 240, 241)) 0% 0% / 1200% 1200%;
+    animation: backgroundAnimation 70s ease infinite;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0 7%;
+    }
+
+    50% {
+        background-position: 100% 94%;
+    }
+
+    100% {
+        background-position: 0 7%;
+    }
+}

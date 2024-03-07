@@ -24,8 +24,25 @@ const Skills = () => {
             value: '95%'
         },
         {
-            name: 'SQL',
+            name: 'ROS2',
             value: '70%'
+        }
+        ,
+        {
+            name: 'Python',
+            value: '60%'
+        },
+        {
+            name: 'C++',
+            value: '90%'
+        },
+        {
+            name: 'Computer Vision',
+            value: '40%'
+        },
+        {
+            name: 'Rasberry pi',
+            value: '60%'
         }
     ];
 

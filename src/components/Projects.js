@@ -4,15 +4,15 @@ import Project from './Project';
 const Projects = () => {
     const projects = [
         {
-            title: 'TELINSTA',
-            description: 'Social Media app (user interface inspired from instagram) for posting images, chatting which has authentication contains OTP verification.',
-            liveDemo: 'https://telinsta.onrender.com/',
-            github: 'https://github.com/kush007200103/Telinsta-master',
+            title: 'QR Code ROS-Bot',
+            description: 'a ros base bot which detect the qr to check which turn or what action it will take ',
+            liveDemo: 'https://drive.google.com/drive/folders/1d5oUZ_3T0qYdVN3tJWNJAUdlH0yryjbO',
+            github: 'https://github.com/kush0072001/Qr_Code_scan_Robot-ROS-',
             languages: {
-                'JavaScript': '99.6%',
-                'CSS': '0.4%'
+                
+                'Python':'100%'
             },
-            technologies: ['Next.js', 'Node.js']
+            technologies: ['Rasberrypi','ROS2','TensorFlow','OpenCv']
         },
         {
             title: 'Vender',
@@ -38,18 +38,17 @@ const Projects = () => {
             },
             technologies: ['React.js','Node.js']
         },
-        // {
-        //     title: 'Doctor_appointment',
-        //     description: 'An app for competitive programmers to get all contests details at one place with awesome online IDE supported by python,c/cpp and more languages.',
-        //     liveDemo: 'https://dcode-contests.netlify.app/',
-        //     github: 'https://github.com/PrashantS360/DCode',
-        //     languages: {
-        //         'JavaScript': '97.0%',
-        //         'HTML': '2.6%',
-        //         'CSS': '0.4%'
-        //     },
-        //     technologies: ['React.js']
-        // }
+        {
+            title: 'Artificial Intelligence Bot',
+            description: 'A manuslly control bot  which detect the ojects which comes in front of them ',
+            github: 'https://github.com/kush0072001/Ai_intelligent_ros_bot',
+            liveDemo: 'https://drive.google.com/drive/folders/1rZoGACxzfikaQqQoZ8qbkrMWoWMHPUYz',
+            languages: {
+                
+                'Python':'100%'
+            },
+            technologies: ['Rasberrypi','ROS2','TensorFlow']
+        }
     ];
 
     return (

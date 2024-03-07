@@ -28,6 +28,7 @@ const Achievements = () => {
                         <li className='font-light md:py-5 py-2'>Hightest Rating on codechief is 1832</li>
                         <li className='font-light md:py-5 py-2'>600+ solve in GFG</li>
                         <li className='font-light md:py-5 py-2'>Secure 3rd possiton in Chess Colligated League(20+countries participated)</li>
+                        <li className='font-light md:py-5 py-2'>FIle a design patent For my project Trash Unit</li>
                     </ul>
                 </div>
                 <div className='md:w-[55%] rounded-sm'>

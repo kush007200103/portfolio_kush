@@ -26,7 +26,7 @@ const Navbar = () => {
                 <h2 className='mx-4 text-xl'>{"<KB/>"}</h2>
                 <ul className='space-x-6 text-lg sm:flex hidden'>
                     <li className='font-light'><a href='#projects'>Projects</a></li>
-                    <li className='font-light'><a target='__blank' href='https://drive.google.com/file/d/161OLAJHWyOQFGFeTOiDy0gUC47jVrk37/edit'>Resume</a></li>
+                    <li className='font-light'><a target='__blank' href='https://drive.google.com/drive/folders/1yhoimvLEfspEPPeIf_gAB7-Z0FXexshm'>Resume</a></li>
                     <li className='font-light'><a href='#about'>About</a></li>
                     <li className='font-light'><a href='#skills'>Skills</a></li>
                 </ul>
@@ -41,7 +41,7 @@ const Navbar = () => {
             {showNavbar && <div className="bg-white p-4">
                 <ul className='text-lg flex flex-col space-y-5'>
                     <li className='font-light px-9'><a href='#projects'>Projects</a></li>
-                    <li className='font-light px-9'><a target='__blank' href='https://drive.google.com/file/d/161OLAJHWyOQFGFeTOiDy0gUC47jVrk37/edit'>Resume</a></li>
+                    <li className='font-light px-9'><a target='__blank' href='https://drive.google.com/drive/folders/1yhoimvLEfspEPPeIf_gAB7-Z0FXexshm'>Resume</a></li>
                     <li className='font-light px-9'><a href='#about'>About</a></li>
                     <li className='font-light px-9'><a href='#skills'>Skills</a></li>
                 </ul>
